@@ -1,0 +1,412 @@
+html,body{margin:0;padding:0}
+
+body{
+    padding-top: 1px;
+    font-family: sans-serif;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(30px); 
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transition-delay: 0.2s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.DFFP{
+    width: 30px; height: 30px;
+    background-image:url(asset/LOGODFFP.png);
+    background-size: contain; background-repeat:no-repeat; background-position:center;
+}
+
+.navigasi {
+    background: linear-gradient(to bottom, #021226, #0b3b66);
+    position: fixed; top: 0; left: 0; right: 0;
+    display: flex; align-items: center; gap: 24px;
+    padding: 18px 50px; z-index: 10; height: 25px;
+}
+
+
+.nama {
+    color: #F4F4F5;
+    font-weight:700; 
+    font-size:14px; 
+    letter-spacing:0.6px;
+    margin-right: auto;
+}
+.isi{
+    display:flex; 
+    gap: 15px; 
+    align-items:center; 
+}
+.isi h3{margin: 0;
+    color: #fff;
+    font-weight:700; 
+    font-size:14px; 
+    letter-spacing:0.6px;
+}
+.isi a{
+    text-decoration:none; 
+    color: #F4F4F5; 
+    font-weight:700;
+    font-size:14px; 
+    letter-spacing:0.6px;}
+
+.navigasi a:hover{
+    color: #dbeafe;
+    transition: 0.2s;
+    font-weight: bold;
+    transform: scale(1.05);
+}
+
+.pahlawan h1{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.pahlawan p{
+    margin: 0;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.pahlawan{
+    background: linear-gradient(to bottom, #0b3b66, #1e40af);
+    padding-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.FOTOKU{
+    width: 300px;           
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+} 
+
+.FOTOKU:hover{
+    border-radius: 50%;
+    border: 4px solid #0ea5e9;
+    transform: scale(1.05)
+}
+
+.tentang{
+    margin-top: 0;
+    background: linear-gradient(to bottom, #1e40af, #2563eb);
+    padding: 200px;
+}
+
+.tentang p{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.tentang #judul{
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.bungkus {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    color: white;
+}
+
+.education{
+    text-align: center;
+}
+
+.education ul{
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.organisasi{
+    text-align: center;
+}
+
+.organisasi ul{
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 0; 
+}
+
+
+.work{
+    margin-top: 0;
+    background: linear-gradient(to bottom, #2563eb, #1e40af);
+    padding: 30px;
+    color: white;
+}
+
+.awalan {
+    text-align: center; 
+}
+
+.awalan h1{
+    margin: 0;
+}
+
+.awalan h2 {
+    margin-top: 10px; 
+}
+
+.awalan p {
+    margin-top: 8px;
+}
+
+
+.kerja{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 50px;
+    padding-bottom: 250px;
+}
+
+.card-kerja{
+    padding: 20px;
+    box-shadow: 5px 5px 20px #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-kerja:hover {
+    box-shadow: 5px 5px 20px #f1f1f1;
+    transform: translateY(-10px); 
+}
+
+.card-kerja img{
+    max-width: 250px; 
+    width: 100%; 
+    height: 200px;  
+    object-fit: cover;
+    display: block; 
+    margin: auto; 
+    border-radius: 10px;
+}
+
+.kerja-desc{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.kerja-desc p{
+    line-height: 1.8;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    flex-grow: 1;
+}
+
+.project{
+    margin-top: 0;
+    background: linear-gradient(to bottom, #1e40af, #0b3b66);
+    padding: 30px;
+    color: #ffffff;
+}
+
+.atas-contain {
+    text-align: center; 
+}
+
+.atas-contain h1{
+    margin: 0;
+}
+
+.atas-contain h2 {
+    margin-top: 10px;
+}
+
+.atas-contain p {
+    margin-top: 8px;
+}
+
+
+.projek-contain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 50px;
+    padding-bottom: 250px;
+}
+
+.card-projek{
+    padding: 20px;
+    box-shadow: 5px 5px 20px #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-projek:hover {
+    box-shadow: 5px 5px 20px #f0f0f0;
+    transform: translateY(-10px);
+}
+
+.card-projek img{
+    max-width: 250px; 
+    width: 100%; 
+    height: 200px;  
+    object-fit: cover;
+    display: block; 
+    margin: auto; 
+    border-radius: 10px;
+}
+
+.projek-desc{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.projek-desc p{
+    line-height: 1.8;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    flex-grow: 1;
+}
+
+.projek-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projek-btn a{
+    background-color: #06B6D4;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    color:#E4E4E7 ;
+}
+
+.projek-btn a:hover{
+    background-color: #0891B2;
+}
+
+.contact{
+    margin-top: 0;
+    background: linear-gradient(to bottom, #0b3b66, #021226);
+    padding: 30px;
+}
+
+.contact-logo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+
+.contact-logo img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease; 
+}
+
+.contact-logo img:hover {
+    transform: scale(1.1); 
+}
+
+.contact-logo p {
+    width: 100%; 
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 0.9em;
+    color: #ffffff; 
+}
+
+.contact-logo p span{
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .navigasi {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 20px; 
+        gap: 15px;
+    }
+
+    .nama {
+        margin-right: 0;
+    }
+
+    .pahlawan {
+        padding-top: 150px; 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .FOTOKU {
+        width: 200px;
+        height: 200px;
+    }
+
+    .pahlawan h1 {
+        font-size: 24px; 
+    }
+
+    .tentang {
+        padding: 80px 20px;
+    }
+
+    .tentang p {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .bungkus {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+    .kerja, .projek-contain {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 80px;
+    }
+
+    .contact-logo {
+        padding: 20px 0;
+    }
+}
