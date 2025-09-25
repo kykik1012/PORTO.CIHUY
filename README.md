@@ -37,3 +37,10 @@ Tampilan utama website:
 ---
 
 ## 📂 Struktur Folder
+portofolio/
+│
+├── index.html # Halaman utama
+├── porto_dengan_gaya.css # File CSS
+├── jawa.js # File JavaScript
+├── asset/ # Folder gambar/logo/icon
+└── README.md # Dokumentasi project
