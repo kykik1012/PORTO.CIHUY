@@ -10,14 +10,6 @@ Website portofolio pribadi yang dibuat untuk menampilkan informasi tentang diri 
 
 ---
 
-## 📸 Preview  
-Tampilan utama website:  
-
-![Preview Portofolio](asset/preview.png)  
-*Gambar ini bisa diganti dengan screenshot website Anda.*
-
----
-
 ## ✨ Fitur Utama
 - **Navigasi Smooth**: Pindah antar section dengan animasi smooth scrolling.
 - **Hero Section**: Foto profil, nama, dan deskripsi singkat.
